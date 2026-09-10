@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DFM | Estatus de Proyectos</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="assets/logo-dfm-icon.jpg">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo">
+        <img src="assets/logo-dfm-full.jpg" alt="DFM" class="logo-mark">
+        <span class="logo-text">Desarrolladora <strong>Funtanet México</strong></span>
+      </a>
+      <nav class="main-nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a href="#proyectos" class="btn btn-primary nav-cta">Ver estatus</a>
+    </div>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <span class="eyebrow">Portal de clientes DFM</span>
+        <h1>Sigue el avance de tu propiedad, desde la compra hasta la entrega</h1>
+        <p>Consulta en un solo lugar el avance físico de la obra y el estatus legal de tu desarrollo: permisos, licencias y documentación siempre al día.</p>
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn btn-primary">Ver mis proyectos</a>
+          <a href="#contacto" class="btn btn-outline">Agendar visita</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>4</strong><span>Desarrollos activos</span></div>
+          <div><strong>3</strong><span>Municipios, Edo. Méx.</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="blueprint-card">
+          <div class="blueprint-row"><span>Madrid</span><span class="tag tag-green">Escriturado</span></div>
+          <div class="blueprint-row"><span>La Guadalupana de Huehuetoca</span><span class="tag tag-yellow">Permisos en integración</span></div>
+          <div class="blueprint-row"><span>Jacarandas</span><span class="tag tag-green">Reglamento aprobado</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="summary">
+    <div class="container summary-grid">
+      <div class="summary-card">
+        <span class="summary-icon">🏗️</span>
+        <strong>4</strong>
+        <p>Desarrollos activos</p>
+      </div>
+      <div class="summary-card">
+        <span class="summary-icon">✅</span>
+        <strong>2</strong>
+        <p>Con estatus legal resuelto</p>
+      </div>
+      <div class="summary-card">
+        <span class="summary-icon">📄</span>
+        <strong>2</strong>
+        <p>En integración de documentación</p>
+      </div>
+      <div class="summary-card">
+        <span class="summary-icon">📍</span>
+        <strong>3</strong>
+        <p>Municipios (Atizapán, Huehuetoca, El Risco)</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos" class="projects">
+    <div class="container">
+      <div class="section-heading">
+        <span class="eyebrow">Estatus por desarrollo</span>
+        <h2>Proyectos</h2>
+        <p>Etapa física de obra y situación legal de cada desarrollo activo. Actualizado al 27 ago 2026.</p>
+      </div>
+
+      <div class="filters">
+        <button class="filter-btn active" data-filter="todos">Todos</button>
+        <button class="filter-btn" data-filter="anteproyecto">Anteproyecto</button>
+        <button class="filter-btn" data-filter="ejecutivo">Proyecto ejecutivo</button>
+        <button class="filter-btn" data-filter="construccion">Construcción</button>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card" data-status="anteproyecto">
+          <div class="project-thumb thumb-1"></div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3>Madrid</h3>
+              <span class="status-pill status-progress">Anteproyecto</span>
+            </div>
+            <p class="project-location">📍 Conjunto Lago Esmeralda, Atizapán de Zaragoza, Edo. Méx.</p>
+
+            <div class="progress-block">
+              <div class="progress-label"><span>Etapa física</span><span>Anteproyecto arquitectónico</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width:40%"></div></div>
+            </div>
+
+            <div class="legal-block">
+              <span class="legal-dot dot-green"></span>
+              <span>Estatus legal: <strong>Escriturado</strong> — compraventa formalizada (Notaría 82, Edo. Méx.)</span>
+            </div>
+            <p class="project-update">Terreno de 10,632 m² en Conjunto Lago Esmeralda, Atizapán.</p>
+            <p class="project-update">Última actualización: 27 ago 2026</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-status="anteproyecto">
+          <div class="project-thumb thumb-2"></div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3>La Guadalupana del Lago</h3>
+              <span class="status-pill status-progress">Anteproyecto</span>
+            </div>
+            <p class="project-location">📍 Estado de México</p>
+
+            <div class="progress-block">
+              <div class="progress-label"><span>Etapa física</span><span>Planos de edificio y lotificación</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width:40%"></div></div>
+            </div>
+
+            <div class="legal-block">
+              <span class="legal-dot dot-yellow"></span>
+              <span>Estatus legal: <strong>Documentación en revisión</strong></span>
+            </div>
+            <p class="project-update">Edificio de departamentos y lotes en desarrollo.</p>
+            <p class="project-update">Última actualización: 27 ago 2026</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-status="ejecutivo">
+          <div class="project-thumb thumb-3"></div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3>La Guadalupana de Huehuetoca</h3>
+              <span class="status-pill status-progress">Proyecto ejecutivo</span>
+            </div>
+            <p class="project-location">📍 Huehuetoca, Estado de México</p>
+
+            <div class="progress-block">
+              <div class="progress-label"><span>Etapa física</span><span>Proyecto ejecutivo completo</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width:60%"></div></div>
+            </div>
+
+            <div class="legal-block">
+              <span class="legal-dot dot-yellow"></span>
+              <span>Estatus legal: <strong>Lotificación definida</strong> — permisos en integración</span>
+            </div>
+            <p class="project-update">Incluye "Proyecto Ámbar" (casas de 43 m²): planos arquitectónico, estructural, eléctrico, hidráulico, sanitario y de gas completos, con presupuesto de cimentación y estructura.</p>
+            <p class="project-update">Última actualización: 27 ago 2026</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-status="construccion">
+          <div class="project-thumb thumb-4"></div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3>Jacarandas</h3>
+              <span class="status-pill status-progress">En construcción / venta</span>
+            </div>
+            <p class="project-location">📍 El Risco, Estado de México</p>
+
+            <div class="progress-block">
+              <div class="progress-label"><span>Etapa física</span><span>Construcción y comercialización</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width:80%"></div></div>
+            </div>
+
+            <div class="legal-block">
+              <span class="legal-dot dot-green"></span>
+              <span>Estatus legal: <strong>Reglamento de construcción aprobado</strong> (ago 2025)</span>
+            </div>
+            <p class="project-update">26 unidades tipo (~135 m² c/u), con lotes apartados y disponibles según plano de estatus de venta.</p>
+            <p class="project-update">Última actualización: 27 ago 2026</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="about">
+    <div class="container about-inner">
+      <div class="about-visual" aria-hidden="true"></div>
+      <div class="about-copy">
+        <span class="eyebrow">Nosotros</span>
+        <h2>Construimos contigo, del primer trazo a la entrega</h2>
+        <p>Desarrolladora Funtanet México (DFM) es una constructora familiar dedicada al desarrollo residencial y comercial en el Estado de México. Acompañamos a nuestros clientes en cada etapa de su desarrollo, con seguimiento transparente del avance físico de la obra y del estatus legal — desde la gestión del terreno y los permisos hasta la entrega de tu propiedad.</p>
+        <div class="founder">
+          <div class="founder-avatar">MF</div>
+          <div>
+            <strong>Mariano Funtanet</strong>
+            <span>Socio</span>
+          </div>
+        </div>
+        <div class="team-mini">
+          <div><strong>Arq. Mauricio Aldana</strong><span>Director de Obras</span></div>
+          <div><strong>Lic. Julio César Bello</strong><span>Director del Área Jurídica</span></div>
+          <div><strong>Liliana García</strong><span>Contabilidad</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <div class="container contact-inner">
+      <div>
+        <span class="eyebrow">Contacto</span>
+        <h2>¿Quieres más información sobre tu desarrollo?</h2>
+        <p>Escríbenos y con gusto te apoyamos, o contacta directamente al área correspondiente.</p>
+        <ul class="contact-list">
+          <li>🏢 Edificio DFM — Blvd. Interlomas 6, Col. San Fernando La Herradura, Huixquilucan, Edo. de México</li>
+        </ul>
+        <form class="contact-form" onsubmit="return false;">
+          <label>Nombre
+            <input type="text" placeholder="Tu nombre">
+          </label>
+          <label>Correo
+            <input type="email" placeholder="tu@correo.com">
+          </label>
+          <label>Proyecto de interés
+            <select>
+              <option>Madrid</option>
+              <option>La Guadalupana del Lago</option>
+              <option>La Guadalupana de Huehuetoca</option>
+              <option>Jacarandas</option>
+              <option>Otro</option>
+            </select>
+          </label>
+          <label>Mensaje
+            <textarea rows="4" placeholder="Cuéntanos en qué te podemos ayudar"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </form>
+      </div>
+      <div class="team-contacts">
+        <div class="team-contact-card">
+          <span class="team-role">Avance físico de obra</span>
+          <strong>Arq. Mauricio Aldana</strong>
+          <span>Director de Obras</span>
+        </div>
+        <div class="team-contact-card">
+          <span class="team-role">Estatus legal y permisos</span>
+          <strong>Lic. Julio César Bello</strong>
+          <span>Director del Área Jurídica</span>
+        </div>
+        <div class="team-contact-card">
+          <span class="team-role">Costos y presupuestos</span>
+          <strong>Liliana García</strong>
+          <span>Contabilidad</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 Desarrolladora Funtanet México (DFM)</span>
+      <span class="footer-note">Información de desarrollos actualizada periódicamente para nuestros clientes</span>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
